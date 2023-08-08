@@ -1,0 +1,24 @@
+  .repos-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .repo-box {
+    display: inline-block;
+    padding: 15px 20px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    color: #333;
+    box-shadow:5px 10px #202020;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .repo-box:hover {
+    transform: scale(1.05);
+    background-color: #e0e0e0;
+  }
+  

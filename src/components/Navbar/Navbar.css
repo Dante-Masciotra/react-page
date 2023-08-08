@@ -1,0 +1,49 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #202020;
+    color: white;
+    padding: 0% 5% 0 5%;
+  }
+  
+  .logo a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+  }
+  .logo a img{
+    width: 45%;
+    padding: 5%;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .logo a img:hover{
+    transform: scale(1.05);
+
+  }
+
+  
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-links li a:hover {
+    color: lightgray;
+    font-size: 18px;
+  }
+  
